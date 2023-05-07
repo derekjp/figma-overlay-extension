@@ -3,7 +3,20 @@
 <title>Options</title>
 
 <form id="options-form" class="detail-view-container">
-	<h3>Color Picker</h3>
+	<h3>Settings</h3>
+	<div class="text-inputs">
+		<label class="embed-input">
+			<span>Figma Embed</span>
+			<textarea name="embed" />
+		</label>
+		<label class="opacity-input">
+			<span>Overlay Opacity</span>
+			<input type="range" min="0" max="100" name="opacity">
+			<input type="number" name="opacity" min="0" max="100" placeholder="50">
+		</label>
+		<div class="embed-output"></div>
+	</div>
+	<!-- <h3>Color Picker</h3>
 	<div class="color-picker">
 		<div class="color-inputs">
 			<label class="color-input">
@@ -23,7 +36,7 @@
 			</label>
 		</div>
 		<div class="color-output"></div>
-	</div>
+	</div> -->
 	<h3>Notice Content</h3>
 	<div class="text-inputs">
 		<label class="text-input">

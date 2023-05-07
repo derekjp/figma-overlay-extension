@@ -1,8 +1,8 @@
 {
-	"name": "Awesome Extension",
-	"version": "0.0.0",
-	"description": "An awesome new browser extension",
-	"homepage_url": "https://github.com/fregante/browser-extension-template",
+	"name": "Figma Design Overlay Extension",
+	"version": "1.0.0",
+	"description": "An extension to overlay a Figma design over your web page.",
+	"homepage_url": "https://github.com/derekjp/figma-overlay-extension",
 	"manifest_version": 3,
 	"minimum_chrome_version": "100",
 	"browser_specific_settings": {
@@ -22,7 +22,7 @@
 	],
 	"content_scripts": [
 		{
-			"matches": [ "https://github.com/fregante/browser-extension-template/*" ],
+			"matches": [ "https://github.com/derekjp/figma-overlay-extension*" ],
 			"js": [ "content.js" ],
 			"css": [ "content.css" ],
 			"run_at": "document_end"
